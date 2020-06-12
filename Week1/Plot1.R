@@ -1,4 +1,4 @@
-# I use the 'read.csv.sql' function to filter the input on date. This requires the sqldf library.
+# Import the sqldf library. The 'read.csv.sql' function is needed to filter the input on date.
 library(sqldf)
 
 # The code below assumes that the data are stored in the same location as this R file.
